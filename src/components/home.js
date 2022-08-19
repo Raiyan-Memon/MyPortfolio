@@ -51,17 +51,16 @@ const home = () => {
                 <div className='mydetails'>
                     <div className='logo'>
                         <ul>
-                            {/* main */}
-                            <a href='https://www.linkedin.com/in/raiyan-memon/' target='_blank'><li className="social-logo" ><span title="LinkedIn"><ion-icon name="logo-linkedin"></ion-icon></span></li></a>
-                            <a href='https://github.com/Raiyan-Memon' target='_blank'><li className="social-logo"><span title="Github"><ion-icon name="logo-github"></ion-icon></span></li></a>
-                            <a href='//www.google.com' target='_blank'><li className="social-logo"><span title="Gitlab"><ion-icon name="logo-gitlab"></ion-icon></span></li></a>
-                            <a href='//https://www.instagram.com/raiyan_memon' target='_blank'><li className="social-logo"><span title="Instagram"><ion-icon name="logo-instagram"></ion-icon></span></li></a>
-                            <a target='_blank'><li className="social-logo" onClick={mail}><span title="Mail To : raiyanmemon7860@gmail.com"><ion-icon name="mail-open-outline"></ion-icon></span></li></a>
-                            <a target='_blank'><li className="social-logo" onClick={phone}><span title="Phone : 7227867397"><ion-icon name="call-outline"></ion-icon></span></li></a>
+                            <a href='https://www.linkedin.com/in/raiyan-memon/' target='_blank' rel="noopener noreferrer"><li className="social-logo" ><span title="LinkedIn"><ion-icon name="logo-linkedin"></ion-icon></span></li></a>
+                            <a href='https://github.com/Raiyan-Memon' target='_blank' rel="noopener noreferrer"><li className="social-logo"><span title="Github"><ion-icon name="logo-github"></ion-icon></span></li></a>
+                            <a href='//www.google.com' target='_blank' rel="noopener noreferrer"><li className="social-logo"><span title="Gitlab"><ion-icon name="logo-gitlab"></ion-icon></span></li></a>
+                            <a href='//https://www.instagram.com/raiyan_memon' target='_blank' rel="noopener noreferrer"><li className="social-logo"><span title="Instagram"><ion-icon name="logo-instagram"></ion-icon></span></li></a>
+                            <a href='javascript:void(0)' target='_blank' rel="noopener noreferrer"><li className="social-logo" onClick={mail}><span title="Mail To : raiyanmemon7860@gmail.com"><ion-icon name="mail-open-outline"></ion-icon></span></li></a>
+                            <a href='javascript:void(0)' target='_blank' rel="noopener noreferrer"><li className="social-logo" onClick={phone}><span title="Phone : 7227867397"><ion-icon name="call-outline"></ion-icon></span></li></a>
                         </ul>
                     </div>
                     <div class="resume">
-                        <a class="myresume" title='View Resume' target="_blank" href="https://drive.google.com/drive/folders/1LewSXTQYL-sh5qu7xeDieYtQpTAzpvtG?usp=sharing">Resume</a><a title='Download Resume' download="Raiyan's Resume" href={myResume}><ion-icon class="social-logo" name="cloud-download-outline"></ion-icon></a>
+                        <a class="myresume" title='View Resume' target="_blank" rel="noopener noreferrer" href="https://drive.google.com/drive/folders/1LewSXTQYL-sh5qu7xeDieYtQpTAzpvtG?usp=sharing">Resume</a><a title='Download Resume' download="Raiyan's Resume" href={myResume}><ion-icon class="social-logo" name="cloud-download-outline"></ion-icon></a>
                     </div>
                 </div>
             </Zoom >
