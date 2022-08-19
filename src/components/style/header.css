@@ -1,0 +1,46 @@
+.navbar{
+    display: flex;
+    position: absolute;
+    top:0%;
+    justify-content: space-between;
+    width: 100vw;
+    height: 50px;
+    background-color: rgb(48 0 92);
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.submenu{
+    margin: 0 70px;
+}
+
+.list{
+    text-align: right;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.list li{
+    margin-right:25px ;
+}
+
+.top-logo{
+    width: 200px;
+    line-height: 50px;
+    margin-left:100px ;
+    font-family: 'DynaPuff', cursive;
+    font-size: 25px;
+}
+
+@media all and (max-width: 930px) {
+   .top-logo{
+    margin: 0 30px;
+    font-size: 15px;
+   }
+   .list{
+    display: none;
+   }
+}
