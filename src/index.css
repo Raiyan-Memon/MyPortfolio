@@ -3,6 +3,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   width: 100vw;
+  overflow: hidden auto;
   background-color: rgb(27, 1, 56);
   color: white;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

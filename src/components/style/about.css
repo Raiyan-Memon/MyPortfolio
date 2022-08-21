@@ -1,0 +1,67 @@
+.about-page{
+    height: 80vh;
+}
+
+.about-head{
+    margin-top: 150px;
+    width: 100vw;
+    text-align: center;
+}
+
+.about-content{
+    display: flex;
+    margin: 0 auto;
+    width: 80vw;
+    height: 60vh;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.about-image img{
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.about-intro{
+    width: 33vw;
+}
+
+.nameRole{
+    line-height: 10px;
+    margin-bottom: 30px;
+}
+
+.age, .phone, .email, .about-name, .about-me    , .contact-me{
+    color: rgb(0 250 255);
+}
+
+@media all and (max-width: 930px) {
+    .about-content{
+        flex-direction: column;
+    }
+    .about-image{
+        
+    }
+
+    .about-detail{
+        /* color: red; */
+        height: 4vh;
+    }
+
+    .about-page{
+        height: 120vh;
+        position: absolute;
+        top: 80vh;
+    }
+
+    .about-head{
+        margin-top: 250px;
+        /* width: 100vw; */
+        text-align: center;
+    }
+
+    .about-intro{
+        flex-direction: column;
+        width: 90vw;
+    }
+}
