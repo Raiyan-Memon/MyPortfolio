@@ -102,28 +102,36 @@
    }
   
   @media all and (max-width: 900px) {
+    .index{
+      flex-direction: column;
+    }
     .home-page{
       display: flex;
       flex-direction: column;
-      justify-content: center;
-      height: 100%;
+      /* justify-content:space-between; */
+      justify-content:space-evenly;
+      height: 93vh;
       width: 100%;
       align-items: center;
-      margin: 5vh auto;
-    }
-    .myimage{
-      width: 150px;
-      margin-top: 10vh;
-    }
-    .mydetails{
-      margin-top: 10vh;
+      margin-top: 50px;
+      /* margin: 0vh 0px; */
     }
 
     .scroll{
-      /* color: red; */
-      position: absolute;
-      /* top: 90vh; */
-      bottom: 0vh;
+      /* position: absolute;  */
+      position: relative;
+      /* padding: 0px; */
+      /* bottom: 0%;  */
+      animation: mymove 1s;
+      animation-iteration-count: infinite;
+    }
+
+    .myimage{
+      width: 150px;
+      margin: 0vh 0px;
+    }
+    .mydetails{
+      /* margin-top: 4vh; */
     }
   
   }
