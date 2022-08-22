@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 // import ZoomReveal from 'react-reveal/Zoom';
-
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 import Typewriter from "typewriter-effect";
 // import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn, FadeOut, Move, MoveIn, MoveOut, Sticky, StickyIn, StickyOut, Zoom, ZoomIn, ZoomOut } from "react-scroll-motion";
 import myImage from './images/Raiyan.png';
@@ -8,14 +9,16 @@ import myResume from './resume/resume.pdf';
 import "./style/home.css"
 
 const home = () => {
-
+    useEffect(() => {
+        Aos.init({ duration: 1000, once: false, });
+    }, []);
 
     // const ZoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn());
     // const FadeUp = batch(FadeIn(), Move(), Sticky());
 
     return (
 
-        <div className='home-page'>
+        <div data-aos="zoom-out" className='home-page'>
             {/* <ZoomReveal top cascade> */}
             <div className='mydetails'>
                 <h2>Hello There, </h2>
