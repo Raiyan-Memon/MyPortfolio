@@ -1,29 +1,31 @@
 import React, { useEffect } from 'react';
-// import ZoomReveal from 'react-reveal/Zoom';
-import Aos from 'aos';
-import 'aos/dist/aos.css';
 import Typewriter from "typewriter-effect";
-// import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn, FadeOut, Move, MoveIn, MoveOut, Sticky, StickyIn, StickyOut, Zoom, ZoomIn, ZoomOut } from "react-scroll-motion";
 import myImage from './images/Raiyan.png';
 import myResume from './resume/resume.pdf';
+import ScrollReveal from 'scrollreveal';
 import "./style/home.css"
+// import ScrollReveal from "https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
 
 const home = () => {
-    useEffect(() => {
-        Aos.init({ duration: 1000, once: false, });
-    }, []);
 
-    // const ZoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn());
-    // const FadeUp = batch(FadeIn(), Move(), Sticky());
+    useEffect(() => {
+        ScrollReveal().reveal('.mydetails, .myimage', {
+            reset: true,
+            duration: 500,
+            delay: 200,
+            easing: 'ease-in',
+            distance: '10px',
+            scale: 0.85,
+        });
+    })
+
 
     return (
-
-        <div data-aos="zoom-out" className='home-page'>
-            {/* <ZoomReveal top cascade> */}
+        <div className='home-page'>
             <div className='mydetails'>
                 <h2>Hello There, </h2>
-                <h2 data-aos="fade-up">I'm <span className='myname'>Raiyan Memon, </span></h2>
-                <p data-aos="fade-up">I am a <span className='role'><Typewriter
+                <h2>I'm <span className='myname'>Raiyan Memon, </span></h2>
+                <p>I am a <span className='role'><Typewriter
                     options={{
                         loop: true,
                     }}
@@ -44,12 +46,8 @@ const home = () => {
                             .start()
                     }}
                 /></span></p>
-
-
             </div>
-
             <img src={myImage} className="myimage" alt="logo" />
-
             <div className='mydetails'>
                 <div className='logo'>
                     <ul>
@@ -57,8 +55,6 @@ const home = () => {
                         <a href='https://github.com/Raiyan-Memon' target='_blank' rel="noopener noreferrer"><li className="social-logo"><span title="Github"><ion-icon name="logo-github"></ion-icon></span></li></a>
                         <a href='//www.google.com' target='_blank' rel="noopener noreferrer"><li className="social-logo"><span title="Gitlab"><ion-icon name="logo-gitlab"></ion-icon></span></li></a>
                         <a href='//https://www.instagram.com/raiyan_memon' target='_blank' rel="noopener noreferrer"><li className="social-logo"><span title="Instagram"><ion-icon name="logo-instagram"></ion-icon></span></li></a>
-                        {/* <a href='javascript:void(0)' target='_blank' rel="noopener noreferrer"><li className="social-logo" onClick={mail}><span title="Mail To : raiyanmemon7860@gmail.com"><ion-icon name="mail-open-outline"></ion-icon></span></li></a>
-                            <a href='javascript:void(0)' target='_blank' rel="noopener noreferrer"><li className="social-logo" onClick={phone}><span title="Phone : 7227867397"><ion-icon name="call-outline"></ion-icon></span></li></a> */}
                     </ul>
                 </div>
                 <div class="resume">
@@ -72,11 +68,13 @@ const home = () => {
                     <li><ion-icon name="chevron-down-outline"></ion-icon></li>
                 </ul>
             </div>
-            {/* </ZoomReveal> */}
         </div>
 
 
     )
+
+
 }
+
 
 export default home
