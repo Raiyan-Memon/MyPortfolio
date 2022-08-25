@@ -20,7 +20,8 @@
 
 .list{
     text-align: right;
-    display: inline-block;
+    /* display: inline-block; */
+    display: none;
     cursor: pointer;
 }
 
