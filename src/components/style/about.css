@@ -57,7 +57,7 @@
     }
 
     .about-page{
-        /* height: 120vh; */
+        height: 100%;
         position: absolute;
         /* top: 80vh; */
     }

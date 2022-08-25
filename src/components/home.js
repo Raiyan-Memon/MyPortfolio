@@ -4,7 +4,6 @@ import myImage from './images/Raiyan.png';
 import myResume from './resume/resume.pdf';
 import ScrollReveal from 'scrollreveal';
 import "./style/home.css"
-// import ScrollReveal from "https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
 
 const home = () => {
 
@@ -18,7 +17,6 @@ const home = () => {
             scale: 0.85,
         });
     })
-
 
     return (
         <div className='home-page'>

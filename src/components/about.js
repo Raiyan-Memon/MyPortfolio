@@ -1,8 +1,20 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import "./style/about.css";
+import ScrollReveal from 'scrollreveal';
 import aboutImage from "./images/my-about-image.jpeg";
 
 const about = () => {
+
+    useEffect(() => {
+        ScrollReveal().reveal('.about-page', {
+            reset: true,
+            duration: 500,
+            delay: 200,
+            easing: 'ease-in',
+            distance: '10px',
+            scale: 0.85,
+        });
+    })
 
     return (
         <div className='about-page'>
