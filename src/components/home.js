@@ -8,19 +8,44 @@ import "./style/home.css"
 const home = () => {
 
     useEffect(() => {
-        ScrollReveal().reveal('.mydetails, .myimage', {
+        ScrollReveal().reveal('.left', {
             reset: true,
             duration: 500,
-            delay: 200,
-            easing: 'ease-in',
-            distance: '10px',
+            // delay: 500,
+            easing: 'ease-in-out',
+            distance: '100px',
+            origin: "left",
+            scale: 0.85,
+        });
+    })
+
+    useEffect(() => {
+        ScrollReveal().reveal('.myimage', {
+            reset: true,
+            duration: 500,
+            // delay: 500,
+            easing: 'ease-in-out',
+            // distance: '100px',
+            // origin: "right",
+            scale: 0.85,
+        });
+    })
+
+    useEffect(() => {
+        ScrollReveal().reveal('.right', {
+            reset: true,
+            duration: 500,
+            // delay: 500,
+            easing: 'ease-in-out',
+            distance: '100px',
+            origin: "right",
             scale: 0.85,
         });
     })
 
     return (
         <div className='home-page'>
-            <div className='mydetails'>
+            <div className='mydetails left'>
                 <h2>Hello There, </h2>
                 <h2>I'm <span className='myname'>Raiyan Memon, </span></h2>
                 <p>I am a <span className='role'><Typewriter
@@ -46,7 +71,7 @@ const home = () => {
                 /></span></p>
             </div>
             <img src={myImage} className="myimage" alt="logo" />
-            <div className='mydetails'>
+            <div className='mydetails right'>
                 <div className='logo'>
                     <ul>
                         <a href='https://www.linkedin.com/in/raiyan-memon/' target='_blank' rel="noopener noreferrer"><li className="social-logo" ><span title="LinkedIn"><ion-icon name="logo-linkedin"></ion-icon></span></li></a>

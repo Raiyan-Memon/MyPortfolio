@@ -10,7 +10,7 @@ const about = () => {
             reset: true,
             duration: 500,
             delay: 200,
-            easing: 'ease-in',
+            easing: 'ease-in-out',
             distance: '10px',
             scale: 0.85,
         });
