@@ -6,7 +6,25 @@ import aboutImage from "./images/my-about-image.jpeg";
 const about = () => {
 
     useEffect(() => {
-        ScrollReveal().reveal('.about-page', {
+        ScrollReveal().reveal('.about-head', {
+            reset: true,
+            duration: 500,
+            delay: 200,
+            easing: 'ease-in-out',
+            distance: '10px',
+            scale: 0.85,
+        });
+
+        ScrollReveal().reveal('.about-image', {
+            reset: true,
+            duration: 500,
+            delay: 200,
+            easing: 'ease-in-out',
+            distance: '10px',
+            scale: 0.85,
+        });
+
+        ScrollReveal().reveal('.about-intro', {
             reset: true,
             duration: 500,
             delay: 200,
