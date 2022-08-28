@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .navbar {
+            height: 50px;
+            width: 100%;
+            line-height: 50px;
+            background-color: red;
+            color: white;
+            display: block;
+            text-align: right;
+        }
+
+        .navbar ul,
+        .navbar li {
+            display: inline-block;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .mobile,
+        .list {
+            display: inline-block;
+        }
+
+        .navbar .mobile {
+            display: none;
+        }
+
+        @media screen and (max-width: 900px) {
+
+            .navbar .mobile{
+                display: inline-block;
+            }
+
+            .responsive{
+                height: 100%;
+            }
+
+            .navbar .list{
+                display: block;
+            }
+
+            .responsive .list{
+                display: block;
+                height: 100vh;
+            }
+            
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar responsive">
+        <div class="mobile">
+            <ul>
+                <li>Click</li>
+            </ul>
+        </div>
+
+        <div class="list">
+            <ul>
+                <li>home</li>
+                <li>about</li>
+                <li>contact</li>
+                <li>details</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>

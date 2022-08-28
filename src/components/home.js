@@ -44,7 +44,7 @@ const home = () => {
     })
 
     return (
-        <div className='home-page'>
+        <div className='home-page' id='home'>
             <div className='mydetails left'>
                 <h2>Hello There, </h2>
                 <h2>I'm <span className='myname'>Raiyan Memon, </span></h2>

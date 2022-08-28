@@ -1,104 +1,101 @@
-.navbar{
+.navbar {
     display: flex;
     position: fixed;
     z-index: 100;
-    top:0%;
+    top: 0%;
     justify-content: space-between;
     width: 100vw;
     height: 50px;
     background-color: rgb(48 0 92);
+    transition: 1000ms;
 }
 
-.navbar ul li{
+.navbar ul li {
     list-style: none;
     display: inline-block;
 }
 
-.submenu{
+.submenu {
     margin: 0 70px;
 }
 
-.list{
+.list {
     text-align: right;
     display: inline-block;
-    /* display: none; */
     cursor: pointer;
 }
 
-.list li{
-    margin-right:25px ;
+.list li {
+    margin-right: 25px;
 }
 
-.top-logo{
+.top-logo {
     width: 200px;
     line-height: 50px;
-    margin-left:100px ;
+    margin-left: 100px;
     font-family: 'DynaPuff', cursive;
     font-size: 25px;
 }
 
-.mobile{
+.mobile {
     display: none;
 }
 
 @media all and (max-width: 930px) {
 
-  .mobile  ul li {
-        all: unset;
-        margin: 0px 10px;
+    .navbar {
+        display: block;
+        overflow: hidden;
     }
 
-   .mobile, .mobile ul {
-        display: inline-block;
+    .top-logo {
+        margin: 0 30px;
+        font-size: 15px;
+        width: fit-content;
     }
 
-    .top-logo{
-     margin: 0 30px;
-     font-size: 15px;
-    }
     .navbar .list {
-        display: none;
-        /* height: 100%; */
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .navbar .mobile {
+        display: inline-block;
+        position: absolute;
+        top: 0%;
+        right: 4%;
+    }
+
+    .navbar .list ul {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .navbar .list ul li {
+        display: block;
+        margin: 0px 0px;
+        margin-bottom: 15px;
     }
 
     .responsive {
-        height: 100vh;
-        /* width: 100%; */
-        background-color: black;
-        color: white;
-        display: block;
-        position: relative;
+        height: 100%;
         transition: 1000ms;
-        overflow-y: hidden;
-        /* scale: 0.90; */
-        /* justify-content: right; */
-        /* align-items: center; */
+        /* overflow: hidden; */
     }
 
-    .responsive .list {
-        display: flex;
-        justify-content: center;
-        height: 80%;
-        align-items: center;
+    .list {
+        /* height: 300px; */
+        margin: 30vh 0px;
+        /* margin: 50% 0px; */
     }
 
-    .responsive .list ul li {
-        color: red;
-        display: flex;
-        margin: 30px 0px;
-        /* position: relative; */
-        /* justify-content: center; */
-        /* align-items: center; */
+    .list ul {}
+
+    .list ul li {
+        margin-bottom: 30px;
     }
 
-    .mobile {
-        display: inline-block;
-        text-align: right;
-        margin-right: 10px;
-        position: absolute;
-        /* float: right; */
-        right: 0px;
-        top: 0px;
-    }
+
+
 }
-
