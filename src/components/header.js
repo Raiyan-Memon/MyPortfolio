@@ -32,7 +32,7 @@ const header = () => {
       //   }
 
       // }
-      bar.classList.toggle("fa-close")
+      // bar.classList.toggle("fa-close")
       mobileview.classList.toggle("responsive");
 
       if (mobileview.className == "navbar responsive") {
@@ -44,8 +44,15 @@ const header = () => {
         bar.classList.add("fa-bars");
       }
 
-    });
 
+
+    });
+    document.getElementById("lists").addEventListener("click", function () {
+
+      mobileview.classList.remove("responsive");
+      bar.classList.remove("fa-close");
+      bar.classList.add("fa-bars");
+    })
 
   })
 
@@ -59,10 +66,10 @@ const header = () => {
         </ul>
       </div>
 
-      <div className="list">
+      <div className="list" id="lists">
         <ul>
           <li><a href="#home">Home</a></li>
-          <li>About</li>
+          <li><a href="#aboutme">About</a></li>
           <li>Skills</li>
           <li>Work</li>
           <li>Experience</li>
