@@ -2,9 +2,14 @@
     -webkit-tap-highlight-color: transparent;
 }
 
+a:hover {
+    all: unset;
+}
+
 .navbar {
     display: flex;
     position: fixed;
+    padding: 0px;
     z-index: 100;
     top: 0%;
     justify-content: space-between;
@@ -17,7 +22,12 @@
 .navbar ul li {
     list-style: none;
     display: inline-block;
-    
+
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
 }
 
 .submenu {
@@ -30,10 +40,11 @@
     cursor: pointer;
 }
 
-.navbar ul li:hover {
+.navbar ul a:hover {
     /* color: #ffd900; */
     /* color: rgb(0 250 255); */
     border-bottom: 0.2rem solid rgb(0 250 255);
+
     /* transition: 0.5s; */
     /* scale: 0.95; */
     /* padding: 0.7rem 0; */
@@ -54,7 +65,7 @@
 
 .top-logo {
     width: 200px;
-    line-height: 50px;
+    line-height: 50px !important;
     margin-left: 100px;
     font-family: 'DynaPuff', cursive;
     font-size: 25px;
@@ -86,7 +97,7 @@
     .navbar .mobile {
         display: inline-block;
         position: absolute;
-        top: 0%;
+        top: 14px;
         right: 4%;
     }
 

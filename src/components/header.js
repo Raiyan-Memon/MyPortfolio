@@ -10,7 +10,7 @@ const header = () => {
     document.getElementById("phone").addEventListener("click", function () {
       mobileview.classList.toggle("responsive");
 
-      if (mobileview.className == "navbar responsive") {
+      if (mobileview.className === "navbar responsive") {
         bar.classList.remove("fa-bars");
         bar.classList.add("fa-close");
       }
@@ -29,8 +29,9 @@ const header = () => {
 
       // alert('sadf')
       // console.log(document.querySelector('a').href.includes('home'));
-      if (document.getElementById('home').href.includes('home')) {
+      if (document.getElementById('home').href.includes('my-profile')) {
         document.getElementById('about').classList.remove('active');
+        document.getElementById('technicalskill').classList.remove('active');
         document.getElementById('home').classList.add("active");
       }
 
@@ -41,19 +42,19 @@ const header = () => {
     })
 
     document.getElementById('about').addEventListener("click", function () {
-
-      // alert('sadf')
-      // console.log(document.querySelector('a').href.includes('home'));
       if (document.getElementById('about').href.includes('aboutme')) {
         document.getElementById('home').classList.remove('active');
+        document.getElementById('technicalskill').classList.remove('active');
         document.getElementById('about').classList.add("active");
       }
+    })
 
-      // if (document.getElementById('about').href.includes('about')) {
-      //   document.getElementById('about').classList.remove('active');
-      //   document.getElementById('about').classList.add("active");
-      // }
-
+    document.getElementById('technicalskill').addEventListener("click", function () {
+      if (document.getElementById('technicalskill').href.includes('technicalskill')) {
+        document.getElementById('home').classList.remove('active');
+        document.getElementById('about').classList.remove("active");
+        document.getElementById('technicalskill').classList.add('active');
+      }
     })
 
   })
@@ -71,10 +72,10 @@ const header = () => {
 
       <div className="list" id="lists">
         <ul>
-          <li><a className="active" href="#home" id="home">Home</a></li>
+          <li><a className="active" href="#my-profile" id="home">Home</a></li>
           <li><a className="" href="#aboutme" id="about">About</a></li>
-          {/* <li><a className="" href="#skills">Skills</a></li>
-          <li><a className="" href="#work">Work</a></li>
+          <li><a className="" href="#technicalskills" id="technicalskill">Skills</a></li>
+          {/* <li><a className="" href="#work">Work</a></li>
           <li><a className="" href="#experience">Experience</a></li>
           <li><a className="" href="#contact">Contact</a></li> */}
         </ul>

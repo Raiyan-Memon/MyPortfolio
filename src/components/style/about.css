@@ -1,14 +1,14 @@
-.about-page{
+.about-page {
     height: 80vh;
 }
 
-.about-head{
+.about-head {
     margin-top: 150px;
     width: 100vw;
     text-align: center;
 }
 
-.about-content{
+.about-content {
     display: flex;
     margin: 0 auto;
     width: 80vw;
@@ -17,58 +17,69 @@
     justify-content: space-evenly;
 }
 
-.about-image img{
+.about-image img {
     display: inline-block;
     border-radius: 20px;
 }
 
-.about-intro{
+.about-intro {
     width: 33vw;
 }
 
-.nameRole{
+.nameRole {
     line-height: 10px;
     margin-bottom: 30px;
 }
 
-.age, .phone, .email, .about-name, .about-me    , .contact-me{
+.age,
+.phone,
+.email,
+.about-name,
+.about-me,
+.contact-me {
     color: rgb(0 250 255);
 }
 
+.skills ul,
+.skills ul li {
+    display: inline;
+}
+
 @media all and (max-width: 930px) {
-    .about{
+    .about {
         height: 90vh;
         margin: auto;
         display: flex;
         flex-direction: column;
-        justify-content:space-evenly;
+        justify-content: space-evenly;
         /* align-items: flex-end; */
     }
-    .about-content{
+
+    .about-content {
         flex-direction: column;
         /* justify-content:space-between; */
         /* align-items: center; */
         /* justify-content: center; */
     }
 
-    .about-detail{
+    .about-detail {
         /* color: red; */
         height: 4vh;
     }
 
-    .about-page{
-        height: 100%;
-        position: absolute;
+    .about-page {
+        height: 100vh;
+        /* position: absolute; */
         /* top: 80vh; */
     }
 
-    .about-head{
+    .about-head {
         margin-top: 0px;
         width: 100vw;
         text-align: center;
     }
 
-    .about-intro{
+    .about-intro {
         flex-direction: column;
         width: 90vw;
     }
