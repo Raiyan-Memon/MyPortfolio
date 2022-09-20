@@ -46,6 +46,7 @@ const skills = () => {
             easing: 'ease-in-out',
             distance: '10px',
             scale: 0.85,
+            viewFactor: 0.3,
         });
     })
 
