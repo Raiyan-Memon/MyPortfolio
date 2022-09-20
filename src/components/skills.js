@@ -40,13 +40,14 @@ const skills = () => {
         });
 
         ScrollReveal().reveal('.skills-list', {
+            container: '.skill-list',
             reset: true,
             duration: 500,
             delay: 200,
             easing: 'ease-in-out',
             distance: '10px',
             scale: 0.85,
-            viewFactor: 0.3,
+            viewFactor: 0.5,
         });
     })
 
@@ -159,7 +160,7 @@ const skills = () => {
             </div>
             <div className='container-fluid'>
                 <h1 className='text-center py-3 bg-black'>Projects</h1>
-<p>dfdfd</p>
+<p>push</p>
             </div>
 
         </>
