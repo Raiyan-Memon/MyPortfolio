@@ -16,19 +16,20 @@ import gitlab from "./images/gitlab.png";
 import netlify from "./images/netlify.svg";
 import tailwindcss from "./images/tailwindcss.svg";
 import vscode from "./images/vscode.svg";
+import skillsimg from "./images/skill.png";
 
 
 const skills = () => {
 
     useEffect(() => {
-        // ScrollReveal().reveal('.skill-list', {
-        //     reset: true,
-        //     duration: 500,
-        //     delay: 200,
-        //     easing: 'ease-in-out',
-        //     distance: '10px',
-        //     scale: 0.85,
-        // });
+        ScrollReveal().reveal('.skill-list', {
+            reset: true,
+            duration: 500,
+            delay: 200,
+            easing: 'ease-in-out',
+            distance: '10px',
+            scale: 0.85,
+        });
 
         ScrollReveal().reveal('#technicalskills', {
             reset: true,
@@ -45,8 +46,9 @@ const skills = () => {
             delay: 200,
             easing: 'ease-in-out',
             distance: '10px',
+            mobile: false,
             scale: 0.85,
-            viewFactor: 0.5,
+            viewFactor: 0.1,
         });
     })
 
@@ -56,7 +58,8 @@ const skills = () => {
             <div className='container-fluid bg-black'>
                 <div className='row text-center'>
                     <div className='col-md-12 my-4' id='technicalskills'>
-                        <h1>Technical <span className="about-name">Skills</span></h1>
+                        {/* <h1>Technical <span className="about-name">Skills</span></h1> */}
+                        <h1 >Technical <ion-icon name="code-working-outline"></ion-icon>  <span className="about-me">Skills</span></h1>
                     </div>
                 </div>
                 <div className='container  skill-list'>
@@ -153,15 +156,7 @@ const skills = () => {
                         </div>
                     </div>
                 </div>
-
-
-
             </div>
-            <div className='container-fluid'>
-                <h1 className='text-center py-3 bg-black'>Projects</h1>
-<p>dfdfd</p>
-            </div>
-
         </>
     )
 }
