@@ -1,31 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "88e29f8afc458a6900a5",
+    "revision": "9d5e5911c016f6440e81",
     "url": "/static/css/main.ead2f6dc.chunk.css"
   },
   {
-    "revision": "88e29f8afc458a6900a5",
-    "url": "/static/js/main.9c2fe5d5.chunk.js"
+    "revision": "9d5e5911c016f6440e81",
+    "url": "/static/js/main.1fc7f9ac.chunk.js"
   },
   {
-    "revision": "6c49f420f470c2a50fc5",
-    "url": "/static/js/runtime~main.fa1e209e.js"
+    "revision": "cfc130b8b42e181a308e",
+    "url": "/static/js/runtime~main.6e2dc32a.js"
   },
   {
-    "revision": "a17116112cf0a0543da8",
-    "url": "/static/js/2.c115bbdf.chunk.js"
+    "revision": "c900146e91bd8255d02b",
+    "url": "/static/js/2.0f3edcb7.chunk.js"
   },
   {
-    "revision": "3756a1c94155375eba15",
-    "url": "/static/js/3.7dc7df72.chunk.js"
+    "revision": "1972f29574012851c652",
+    "url": "/static/js/3.1749d0fc.chunk.js"
   },
   {
     "revision": "d52287738b55788ea70175d566102073",
     "url": "/static/media/laravel.d5228773.svg"
-  },
-  {
-    "revision": "9bb2be0ab98882dc7e54b9d8d6bcfdab",
-    "url": "/static/media/MemonMovies2.0.9bb2be0a.png"
   },
   {
     "revision": "84419b59d887968028858523b2d20368",
@@ -96,6 +92,10 @@ self.__precacheManifest = [
     "url": "/static/media/vscode.a80b6238.svg"
   },
   {
+    "revision": "9bb2be0ab98882dc7e54b9d8d6bcfdab",
+    "url": "/static/media/MemonMovies2.0.9bb2be0a.png"
+  },
+  {
     "revision": "dc284760e5b85f4b05c85ad9b67e7a8e",
     "url": "/static/media/Portfolio _ Raiyan Memon.dc284760.png"
   },
@@ -104,7 +104,11 @@ self.__precacheManifest = [
     "url": "/static/media/People_API.aca49930.png"
   },
   {
-    "revision": "baf4eefcc3ea36cba2629cd7c6685fb7",
+    "revision": "25bb819296d184b9156a427537bf1be1",
+    "url": "/static/media/Laravel-project.25bb8192.png"
+  },
+  {
+    "revision": "c66119c7950d0746b02309df88b96ad2",
     "url": "/index.html"
   }
 ];

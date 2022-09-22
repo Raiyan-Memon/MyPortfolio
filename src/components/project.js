@@ -5,6 +5,7 @@ import projectlogo from "./images/project-management.png";
 import memonmovies from "./images/MemonMovies2.0.png";
 import protfolio from "./images/Portfolio _ Raiyan Memon.png";
 import peopleapi from "./images/People_API.png";
+import laravel from './images/Laravel-project.png';
 
 const project = () => {
 
@@ -72,7 +73,7 @@ const project = () => {
                             </div>
                             <div className='d-flex justify-content-center px-4 flex-column align-content-center row'>
                                 <button title='Details' className='btn btn-sm btn-outline-success  onclick-details'>Details</button>
-                               <button title='View This Site' className='btn btn-sm btn-outline-light my-3'><ion-icon name="eye-outline"></ion-icon><a href='https://raiyanmemon.netlify.app'> View</a></button>
+                                <button title='View This Site' className='btn btn-sm btn-outline-light my-3'><ion-icon name="eye-outline"></ion-icon><a href='https://raiyanmemon.netlify.app'> View</a></button>
                                 <button title='Code On GitHub' className='btn btn-sm btn-outline-primary'><ion-icon name="code-slash-outline"></ion-icon> Code</button>
                             </div>
                         </div>
@@ -107,15 +108,15 @@ const project = () => {
                     </div>
                     <div className='col-md-5 m-3 d-flex justify-content-center col-12'>
                         <div className='card d-flex flex-row bg-black'>
-                            <img class="card-img-top project-img" src={memonmovies} />
+                            <img class="card-img-top project-img" src={laravel} />
                             <div class="overlay projects d-none">
-                                <h2 className='text-secondary'>Memon Movies</h2>
-                                <p>Built With Pure HTML, CSS, JavaScript, Bootstrap, jQuery And Ajax. TMBD API Was Called In Order To Fetch All The Movies And Webseries.</p>
+                                <h2 className='text-secondary'>Laravel Internship Project</h2>
+                                <p>4 CRUD Operation with UUID, Many to Many relationship, authentication with Google and GitHub, created API and connected with MySQL database for storing all the data.</p>
                             </div>
                             <div className='d-flex justify-content-center px-4 flex-column align-content-center row'>
                                 <button className='btn btn-sm btn-outline-success  onclick-details'>Details</button>
-                                <button className='btn btn-sm btn-outline-light my-3'><ion-icon name="eye-outline"></ion-icon> View</button>
-                                <button className='btn btn-sm btn-outline-primary'><ion-icon name="code-slash-outline"></ion-icon> Code</button>
+                                {/* <button className='btn btn-sm btn-outline-light my-3'><ion-icon name="eye-outline"></ion-icon> View</button> */}
+                                <button className='btn btn-sm btn-outline-primary my-3'><ion-icon name="code-slash-outline"></ion-icon> Code</button>
                             </div>
                         </div>
                     </div>
