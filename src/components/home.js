@@ -148,7 +148,7 @@ const home = () => {
                             }}
                             onInit={(typewriter) => {
                                 typewriter
-                                    .typeString("Full Stack Developer")
+                                    .typeString("Junior Developer")
                                     .pauseFor(2000)
                                     .deleteAll()
                                     .typeString("Frontend Developer")

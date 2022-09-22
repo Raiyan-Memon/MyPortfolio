@@ -52,10 +52,10 @@ const about = () => {
                         <div className="nameRole">
                             <h1>I'm <span className="about-name">Raiyan</span></h1>
 
-                            <p><b><span className="role">Full Stack Developer</span></b></p>
+                            <p><b><span className="role">Junior Developer</span></b></p>
                         </div>
                         <div className="about-detail">
-                            <p>I am a Full-Stack developer based in India. I am an Computer Science Engineering graduate from LIT. I
+                            <p>I am a Junior developer based in India. I am an Computer Science Engineering graduate from LIT. I
                                 am
                                 very passionate about improving my coding skills & developing web-applications & websites.</p>
                             <p><span className="age">Age:</span> 22</p>

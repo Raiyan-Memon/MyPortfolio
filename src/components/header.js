@@ -66,8 +66,6 @@ const header = () => {
       }
     })
 
-   
-
     $('#project').on('click', function () {
       $('.head-list').removeClass('active');
       $(this).toggleClass('active');
