@@ -5,6 +5,9 @@ import "./style/header.css";
 const header = () => {
 
   useEffect(() => {
+
+    const $ = window.$;
+
     let mobileview = document.getElementById("mobileview");
     let bar = document.querySelector('i');
     document.getElementById("phone").addEventListener("click", function () {
@@ -26,6 +29,8 @@ const header = () => {
     })
 
     document.getElementById('home').addEventListener("click", function () {
+      $('.head-list').removeClass('active');
+
 
       // alert('sadf')
       // console.log(document.querySelector('a').href.includes('home'));
@@ -42,6 +47,8 @@ const header = () => {
     })
 
     document.getElementById('about').addEventListener("click", function () {
+      $('.head-list').removeClass('active');
+
       if (document.getElementById('about').href.includes('aboutme')) {
         document.getElementById('home').classList.remove('active');
         document.getElementById('technicalskill').classList.remove('active');
@@ -50,11 +57,20 @@ const header = () => {
     })
 
     document.getElementById('technicalskill').addEventListener("click", function () {
+      $('.head-list').removeClass('active');
+
       if (document.getElementById('technicalskill').href.includes('technicalskill')) {
         document.getElementById('home').classList.remove('active');
         document.getElementById('about').classList.remove("active");
         document.getElementById('technicalskill').classList.add('active');
       }
+    })
+
+   
+
+    $('#project').on('click', function () {
+      $('.head-list').removeClass('active');
+      $(this).toggleClass('active');
     })
 
   })
@@ -72,9 +88,10 @@ const header = () => {
 
       <div className="list" id="lists">
         <ul>
-          <li><a className="active" href="#my-profile" id="home">Home</a></li>
-          <li><a className="" href="#aboutme" id="about">About</a></li>
-          <li><a className="" href="#technicalskills" id="technicalskill">Skills</a></li>
+          <li><a className="head-list active" href="#my-profile" id="home">Home</a></li>
+          <li><a className="head-list" href="#aboutme" id="about">About</a></li>
+          <li><a className="head-list" href="#technicalskills" id="technicalskill">Skills</a></li>
+          <li><a className="head-list" href="#projects" id="project">Projects</a></li>
           {/* <li><a className="" href="#work">Work</a></li>
           <li><a className="" href="#experience">Experience</a></li>
           <li><a className="" href="#contact">Contact</a></li> */}

@@ -1,23 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "6dbdc0b0cd686e15a3b2",
-    "url": "/static/css/main.2a5845a0.chunk.css"
+    "revision": "4f372bb726aa32716935",
+    "url": "/static/css/main.ead2f6dc.chunk.css"
   },
   {
-    "revision": "6dbdc0b0cd686e15a3b2",
-    "url": "/static/js/main.07e5f245.chunk.js"
+    "revision": "4f372bb726aa32716935",
+    "url": "/static/js/main.c461819d.chunk.js"
   },
   {
-    "revision": "bde126f3137e2899dee9",
-    "url": "/static/js/runtime~main.7c726689.js"
+    "revision": "d580bc6ace43239bf00f",
+    "url": "/static/js/runtime~main.7d791552.js"
   },
   {
-    "revision": "00d747e6260c2b2293e7",
-    "url": "/static/js/2.9ce578d4.chunk.js"
+    "revision": "89d9a539419984a0fdd3",
+    "url": "/static/js/2.6d739b86.chunk.js"
   },
   {
-    "revision": "35e3298fa08cafb94634",
-    "url": "/static/js/3.e131f2af.chunk.js"
+    "revision": "f50c52fea83c4f607bd2",
+    "url": "/static/js/3.ecfff8ab.chunk.js"
+  },
+  {
+    "revision": "9bb2be0ab98882dc7e54b9d8d6bcfdab",
+    "url": "/static/media/MemonMovies2.0.9bb2be0a.png"
   },
   {
     "revision": "d52287738b55788ea70175d566102073",
@@ -92,11 +96,11 @@ self.__precacheManifest = [
     "url": "/static/media/vscode.a80b6238.svg"
   },
   {
-    "revision": "b8c221b99853337c9a31ab2d4a23d827",
-    "url": "/static/media/skill.b8c221b9.png"
+    "revision": "dc284760e5b85f4b05c85ad9b67e7a8e",
+    "url": "/static/media/Portfolio _ Raiyan Memon.dc284760.png"
   },
   {
-    "revision": "433648bb84d9b4067a539f40989de5d1",
+    "revision": "faa65cd484b327bdd63c7ce0d1ae7f8b",
     "url": "/index.html"
   }
 ];

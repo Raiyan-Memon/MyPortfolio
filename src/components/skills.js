@@ -16,8 +16,6 @@ import gitlab from "./images/gitlab.png";
 import netlify from "./images/netlify.svg";
 import tailwindcss from "./images/tailwindcss.svg";
 import vscode from "./images/vscode.svg";
-import skillsimg from "./images/skill.png";
-
 
 const skills = () => {
 
@@ -58,7 +56,6 @@ const skills = () => {
             <div className='container-fluid bg-black'>
                 <div className='row text-center'>
                     <div className='col-md-12 my-4' id='technicalskills'>
-                        {/* <h1>Technical <span className="about-name">Skills</span></h1> */}
                         <h1 >Technical <ion-icon name="code-working-outline"></ion-icon>  <span className="about-me">Skills</span></h1>
                     </div>
                 </div>
