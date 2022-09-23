@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "9d5e5911c016f6440e81",
-    "url": "/static/css/main.ead2f6dc.chunk.css"
+    "revision": "8cc4ed47b75c6b282c91",
+    "url": "/static/css/main.da4062d8.chunk.css"
   },
   {
-    "revision": "9d5e5911c016f6440e81",
-    "url": "/static/js/main.1fc7f9ac.chunk.js"
+    "revision": "8cc4ed47b75c6b282c91",
+    "url": "/static/js/main.eaf8041c.chunk.js"
   },
   {
-    "revision": "cfc130b8b42e181a308e",
-    "url": "/static/js/runtime~main.6e2dc32a.js"
+    "revision": "9f0d392c2bc1afe3de4b",
+    "url": "/static/js/runtime~main.fc54a4f4.js"
   },
   {
-    "revision": "c900146e91bd8255d02b",
-    "url": "/static/js/2.0f3edcb7.chunk.js"
+    "revision": "3a86405049ca9a729b5e",
+    "url": "/static/js/2.200ee402.chunk.js"
   },
   {
-    "revision": "1972f29574012851c652",
-    "url": "/static/js/3.1749d0fc.chunk.js"
+    "revision": "655a1df2214623ff1b32",
+    "url": "/static/js/3.120d7e7f.chunk.js"
   },
   {
     "revision": "d52287738b55788ea70175d566102073",
@@ -108,7 +108,27 @@ self.__precacheManifest = [
     "url": "/static/media/Laravel-project.25bb8192.png"
   },
   {
-    "revision": "c66119c7950d0746b02309df88b96ad2",
+    "revision": "ac0584a2e6b8a5ac81bfd42ea268541c",
+    "url": "/static/media/AWSM_Beauty_Collection.ac0584a2.png"
+  },
+  {
+    "revision": "a9036f7d76295119ebeaf90f7afccea1",
+    "url": "/static/media/Dice Game.a9036f7d.png"
+  },
+  {
+    "revision": "f53e405b5c7efa8774f30028d35079d3",
+    "url": "/static/media/Drum Kit.f53e405b.png"
+  },
+  {
+    "revision": "c42bb4303563c4692a06ba912cb59f48",
+    "url": "/static/media/Gym Project.c42bb430.png"
+  },
+  {
+    "revision": "c655bf6d33a4c7aa65673deee2bafc71",
+    "url": "/static/media/Movies App.c655bf6d.png"
+  },
+  {
+    "revision": "b4c86b09dc037728f2b52066bbea924b",
     "url": "/index.html"
   }
 ];

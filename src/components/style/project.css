@@ -38,3 +38,20 @@
     padding: 10px;
     text-align: center;
   }
+
+@media all and (max-width: 930px) {
+
+    .overlay{
+        font-size: 10px;
+    }
+
+    .overlay h2{
+        font-size: 15px;
+    }
+
+    .card button{
+        font-size: 10px;
+    }
+
+
+}

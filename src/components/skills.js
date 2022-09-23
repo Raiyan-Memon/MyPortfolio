@@ -46,7 +46,7 @@ const skills = () => {
             distance: '10px',
             mobile: false,
             scale: 0.85,
-            viewFactor: 0.1,
+            // viewFactor: 0,
         });
     })
 
