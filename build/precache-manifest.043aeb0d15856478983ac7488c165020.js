@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "48d24471dd72e755b593",
+    "revision": "3184029f02bf58d878ef",
     "url": "/static/css/main.fabe2463.chunk.css"
   },
   {
-    "revision": "48d24471dd72e755b593",
-    "url": "/static/js/main.60706e56.chunk.js"
+    "revision": "3184029f02bf58d878ef",
+    "url": "/static/js/main.921d27ce.chunk.js"
   },
   {
     "revision": "9f0d392c2bc1afe3de4b",
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/static/media/Raiyan.84419b59.png"
   },
   {
-    "revision": "af544009923e2dedbdd0f70cd2f494d9",
-    "url": "/static/media/resume.af544009.pdf"
+    "revision": "f08da16974816c5459953fd6adb2746c",
+    "url": "/static/media/resume.f08da169.pdf"
   },
   {
     "revision": "f560c6cf5228b5b7d06ff0738c86bb2b",
@@ -128,7 +128,7 @@ self.__precacheManifest = [
     "url": "/static/media/Movies App.c655bf6d.png"
   },
   {
-    "revision": "04ac80abcd0e5ca05c4593e9afa79ec7",
+    "revision": "fe751e6e2d445de202c8b89acc7194ff",
     "url": "/index.html"
   }
 ];
