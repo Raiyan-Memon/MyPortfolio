@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "8cc4ed47b75c6b282c91",
-    "url": "/static/css/main.da4062d8.chunk.css"
+    "revision": "48d24471dd72e755b593",
+    "url": "/static/css/main.fabe2463.chunk.css"
   },
   {
-    "revision": "8cc4ed47b75c6b282c91",
-    "url": "/static/js/main.eaf8041c.chunk.js"
+    "revision": "48d24471dd72e755b593",
+    "url": "/static/js/main.60706e56.chunk.js"
   },
   {
     "revision": "9f0d392c2bc1afe3de4b",
@@ -128,7 +128,7 @@ self.__precacheManifest = [
     "url": "/static/media/Movies App.c655bf6d.png"
   },
   {
-    "revision": "b4c86b09dc037728f2b52066bbea924b",
+    "revision": "04ac80abcd0e5ca05c4593e9afa79ec7",
     "url": "/index.html"
   }
 ];

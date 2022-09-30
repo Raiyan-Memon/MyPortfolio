@@ -21,7 +21,6 @@ const skills = () => {
 
     useEffect(() => {
         ScrollReveal().reveal('.skill-list', {
-            reset: true,
             duration: 500,
             delay: 200,
             easing: 'ease-in-out',
@@ -30,7 +29,7 @@ const skills = () => {
         });
 
         ScrollReveal().reveal('#technicalskills', {
-            reset: true,
+            // reset: true,
             duration: 500,
             delay: 200,
             easing: 'ease-in-out',
@@ -39,7 +38,7 @@ const skills = () => {
         });
 
         ScrollReveal().reveal('.skills-list', {
-            reset: true,
+            // reset: true,
             duration: 500,
             delay: 200,
             easing: 'ease-in-out',

@@ -19,7 +19,6 @@ const project = () => {
     useEffect(() => {
 
         ScrollReveal().reveal('.project-title', {
-            reset: true,
             duration: 500,
             delay: 200,
             easing: 'ease-in-out',

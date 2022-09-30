@@ -25,7 +25,6 @@ const home = () => {
         ScrollReveal().reveal('.left', {
             reset: true,
             duration: 500,
-            // delay: 500,
             easing: 'ease-in-out',
             distance: '100px',
             origin: "left",
@@ -37,10 +36,7 @@ const home = () => {
         ScrollReveal().reveal('.myimage', {
             reset: true,
             duration: 500,
-            // delay: 500,
             easing: 'ease-in-out',
-            // distance: '100px',
-            // origin: "right",
             scale: 0.85,
         });
     })
