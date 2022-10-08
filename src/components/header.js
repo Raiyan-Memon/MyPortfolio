@@ -86,13 +86,13 @@ const header = () => {
 
       <div className="list" id="lists">
         <ul>
-          <li><a className="head-list active" href="#my-profile" id="home">Home</a></li>
-          <li><a className="head-list" href="#aboutme" id="about">About</a></li>
-          <li><a className="head-list" href="#technicalskills" id="technicalskill">Skills</a></li>
-          <li><a className="head-list" href="#projects" id="project">Projects</a></li>
-          {/* <li><a className="" href="#work">Work</a></li>
-          <li><a className="" href="#experience">Experience</a></li>
-          <li><a className="" href="#contact">Contact</a></li> */}
+          <li><a title="links" className="head-list active" href="#my-profile" id="home">Home</a></li>
+          <li><a title="links" className="head-list" href="#aboutme" id="about">About</a></li>
+          <li><a title="links" className="head-list" href="#technicalskills" id="technicalskill">Skills</a></li>
+          <li><a title="links" className="head-list" href="#projects" id="project">Projects</a></li>
+          {/* <li><a title="links" className="" href="#work">Work</a></li>
+          <li><a title="links" className="" href="#experience">Experience</a></li>
+          <li><a title="links" className="" href="#contact">Contact</a></li> */}
         </ul>
       </div>
     </div>
