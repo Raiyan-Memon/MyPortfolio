@@ -178,7 +178,7 @@ const project = () => {
                     </div>
                 </div>
             </div>
-            alt="Image Not found"</>
+        </>
     )
 }
 

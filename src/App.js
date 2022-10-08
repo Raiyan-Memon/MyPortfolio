@@ -6,6 +6,7 @@ import Footer from './components/footer';
 import About from './components/about';
 import Skills from './components/skills';
 import Project from './components/project';
+import Contact from './components/contact';
 function App() {
   return (
     <>
@@ -15,6 +16,7 @@ function App() {
       <Footer />
       <Skills />
       <Project />
+      {/* <Contact /> */}
     </>
   );
 }
