@@ -166,7 +166,7 @@ const home = () => {
                             <ul>
                                 <a title='links' href='https://www.linkedin.com/in/raiyan-memon/' target='_blank' rel="noopener noreferrer"><li className="social-logo" ><span title="LinkedIn"><ion-icon name="logo-linkedin"></ion-icon></span></li></a>
                                 <a title='links' href='https://github.com/Raiyan-Memon' target='_blank' rel="noopener noreferrer"><li className="social-logo"><span title="Github"><ion-icon name="logo-github"></ion-icon></span></li></a>
-                                <a title='links' href='//www.google.com' target='_blank' rel="noopener noreferrer"><li className="social-logo"><span title="Gitlab"><ion-icon name="logo-gitlab"></ion-icon></span></li></a>
+                                {/* <a title='links' href='//www.google.com' target='_blank' rel="noopener noreferrer"><li className="social-logo"><span title="Gitlab"><ion-icon name="logo-gitlab"></ion-icon></span></li></a> */}
                                 <a title='links' href='//https://www.instagram.com/raiyan_memon' target='_blank' rel="noopener noreferrer"><li className="social-logo"><span title="Instagram"><ion-icon name="logo-instagram"></ion-icon></span></li></a>
                             </ul>
                         </div>

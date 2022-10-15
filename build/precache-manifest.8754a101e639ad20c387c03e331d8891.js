@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "f58377681a07ef476835",
+    "revision": "e354ca828262c476cc33",
     "url": "/static/css/main.bf939c2f.chunk.css"
   },
   {
-    "revision": "f58377681a07ef476835",
-    "url": "/static/js/main.42dea059.chunk.js"
+    "revision": "e354ca828262c476cc33",
+    "url": "/static/js/main.036874bd.chunk.js"
   },
   {
     "revision": "b22b5f536f8126263b01",
     "url": "/static/js/runtime~main.1b1cf5ad.js"
   },
   {
-    "revision": "58e5af42b191828303d9",
-    "url": "/static/js/2.251f0df7.chunk.js"
+    "revision": "c421ea0ab8ac495534cb",
+    "url": "/static/js/2.36aa4eb8.chunk.js"
   },
   {
     "revision": "7da80a4b2c1fc8dd018d",
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/static/media/Raiyan.84419b59.png"
   },
   {
-    "revision": "f08da16974816c5459953fd6adb2746c",
-    "url": "/static/media/resume.f08da169.pdf"
+    "revision": "65fc86870c9e2b3fb662394e9869cc74",
+    "url": "/static/media/resume.65fc8687.pdf"
   },
   {
     "revision": "f560c6cf5228b5b7d06ff0738c86bb2b",
@@ -132,7 +132,7 @@ self.__precacheManifest = [
     "url": "/static/media/contact.e870e937.png"
   },
   {
-    "revision": "5bf8e1a7664753e52f1b9dae034c3e1a",
+    "revision": "d1f7435469ac0e380a6670b9ea4b4f6a",
     "url": "/index.html"
   }
 ];
