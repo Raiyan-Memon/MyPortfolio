@@ -15,7 +15,7 @@ a:hover {
     justify-content: space-between;
     width: 100vw;
     height: 50px;
-    background-color: rgb(48 0 92);
+    background-color: #4a4bcc;
     transition: 1000ms;
 }
 
