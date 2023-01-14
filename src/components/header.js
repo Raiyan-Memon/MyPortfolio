@@ -90,6 +90,7 @@ const header = () => {
           <li><a title="links" className="head-list" href="#aboutme" id="about">About</a></li>
           <li><a title="links" className="head-list" href="#technicalskills" id="technicalskill">Skills</a></li>
           <li><a title="links" className="head-list" href="#projects" id="project">Projects</a></li>
+          <li><a title="links" className="head-list" href="https://raiyan-memon.github.io/Detailed-website/index.html" id="project">Detailed Resume</a></li>
           {/* <li><a title="links" className="" href="#work">Work</a></li>
           <li><a title="links" className="" href="#experience">Experience</a></li>
           <li><a title="links" className="" href="#contact">Contact</a></li> */}
