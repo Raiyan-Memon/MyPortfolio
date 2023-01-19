@@ -15,7 +15,8 @@ a:hover {
     justify-content: space-between;
     width: 100vw;
     height: 50px;
-    background-color: #4a4bcc;
+    /* background-color: #4a4bcc; */
+    background: linear-gradient(109.5deg, rgb(13, 11, 136) 9.4%, rgb(86, 255, 248) 165.4%);
     transition: 1000ms;
 }
 
