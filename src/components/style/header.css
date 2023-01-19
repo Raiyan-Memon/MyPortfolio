@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
 :root {
     -webkit-tap-highlight-color: transparent;
 }
@@ -69,7 +71,10 @@ a:hover {
     line-height: 50px !important;
     margin-left: 100px;
     font-family: 'DynaPuff', cursive;
+    font-family: 'Great Vibes', cursive;
+    font-weight: 900;
     font-size: 25px;
+    /* color: #44c3dd; */
 }
 
 .mobile {
