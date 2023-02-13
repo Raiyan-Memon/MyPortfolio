@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Outlet, Link } from "react-router-dom";
 import Typewriter from "typewriter-effect";
 import myImage from './images/Raiyan.png';
 import myResume from './resume/resume.pdf';
@@ -134,10 +135,14 @@ const home = () => {
                         // detectRetina: true,
                     }}
                 /> */}
+                    <Outlet />
+
                 <div className='home-page' id='my-profile'>
+                    
                     <div className='mydetails left'>
-                        <h2>Hello There, </h2>
-                        <h2>I'm <span className='myname'>Raiyan Memon, </span></h2>
+                        <h2><Link to="/">Hello There, </Link></h2>
+                        <h2>I'm <span className='myname'> <Link to="/sara">Raiyan Memon, </Link></span></h2>
+                        
                         <p>I am a <span className='role'><Typewriter
                             options={{
                                 loop: true,
@@ -161,6 +166,7 @@ const home = () => {
                         /></span></p>
                     </div>
                     <img src={myImage} className="myimage" alt="logo" />
+
                     <div className='mydetails right'>
                         <div className='logo'>
                             <ul>
@@ -174,6 +180,8 @@ const home = () => {
                             <a class="myresume" title='View Resume' target="_blank" rel="noopener noreferrer" href="https://drive.google.com/drive/folders/1LewSXTQYL-sh5qu7xeDieYtQpTAzpvtG?usp=sharing">Resume</a><a  title='Download Resume' download="Raiyan's Resume" href={myResume}><ion-icon class="social-logo" name="cloud-download-outline"></ion-icon></a>
                         </div>
                     </div>
+              
+
 
                     <div className='scroll'>
                         <ul>
