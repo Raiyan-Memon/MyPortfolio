@@ -76,7 +76,7 @@ const header = () => {
   return (
     <div className="navbar" id="mobileview">
 
-      <div className="top-logo">Raiyan Memon</div>
+      <div className="top-logo">Raiyan</div>
 
       <div className="mobile" id="phone">
         <ul>
