@@ -179,7 +179,11 @@
     window.addEventListener('load', function () {
       setTimeout(() => {
         loader.classList.add('hide-loader');
+
       }, 500);
+      setTimeout(() => {
+        loader.style = "width:0; height:0";
+      }, 1500);
     })
   </script>
 </body>
